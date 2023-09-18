@@ -34,7 +34,7 @@ function getPrompts() {
     }
 
     if (confirm("uppercase letters in password?")) {
-        choiceArr = choiceArr.concat(upperCaseCase);
+        choiceArr = choiceArr.concat(upperCase);
     }
 
     if (confirm("numbers in password?")) {
